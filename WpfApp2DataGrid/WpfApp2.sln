@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31402.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp2", "WpfApp2\WpfApp2.csproj", "{1CD5E0B4-518B-45C2-B23E-01054693E3C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppTreeView", "AppTreeView\AppTreeView.csproj", "{FE4BAF64-19B7-423B-942F-7D24FB1F4B9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1CD5E0B4-518B-45C2-B23E-01054693E3C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CD5E0B4-518B-45C2-B23E-01054693E3C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CD5E0B4-518B-45C2-B23E-01054693E3C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE4BAF64-19B7-423B-942F-7D24FB1F4B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4BAF64-19B7-423B-942F-7D24FB1F4B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4BAF64-19B7-423B-942F-7D24FB1F4B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4BAF64-19B7-423B-942F-7D24FB1F4B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
