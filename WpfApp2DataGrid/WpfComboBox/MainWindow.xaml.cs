@@ -26,8 +26,11 @@ namespace WpfComboBox
         public event PropertyChangedEventHandler PropertyChanged;
 
         public Book   MyBook { get; set; }
-
         public Book[] BookEntry { get; set; }
+
+
+        public string   MyBook2 { get; set; }
+        public string[] BookEntry2 { get; set; }
 
         public MainWindow()
         {
@@ -38,6 +41,8 @@ namespace WpfComboBox
                 new Book() { Title = "조선가", Description = "김영사"},
             };
 
+            BookEntry2 = new string[] { "헤리포터", "매트릭스" };
+
             this.DataContext = this;
         }
 
@@ -45,10 +50,14 @@ namespace WpfComboBox
 
         private void Button1_Click(object sender, RoutedEventArgs e)
         {
-            MyBook = new Book() { Title = "토지", Description = "박경리" };
+            //MyBook = new Book() { Title = "토지", Description = "박경리" };
             MyBook = BookEntry[1];
 
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(MyBook)));
+
+            MyBook2 = "헤리포터";
+
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(nameof(MyBook2)));
 
         }
         private void Button2_Click(object sender, RoutedEventArgs e)

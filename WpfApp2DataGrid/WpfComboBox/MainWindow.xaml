@@ -9,13 +9,22 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition/>            
         </Grid.RowDefinitions>
-        <StackPanel Orientation="Horizontal">
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
             <ComboBox Width="200" HorizontalAlignment="Left" 
                   ItemsSource="{Binding BookEntry}"
-                  SelectedItem="{Binding MyBook}"
+                  SelectedValue="{Binding MyBook}"
                   DisplayMemberPath="Title" >
+            </ComboBox>
+            <Button Width="80" Click="Button1_Click">test1</Button>
+            <Button Width="80" Click="Button2_Click">test2</Button>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <ComboBox Width="200" HorizontalAlignment="Left" 
+                  ItemsSource="{Binding BookEntry2}"
+                  SelectedValue="{Binding MyBook2}" >
             </ComboBox>
             <Button Width="80" Click="Button1_Click">test1</Button>
             <Button Width="80" Click="Button2_Click">test2</Button>
