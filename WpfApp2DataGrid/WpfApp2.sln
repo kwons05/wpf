@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppDataGrid", "WpfAppDat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfBlinkText", "WpfBlinkText\WpfBlinkText.csproj", "{DAEC62CF-B3AD-4233-8D91-F388BE7C69D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfAppTab", "WpfAppTab\WpfAppTab.csproj", "{1EA08F67-D65C-46EB-A78E-5CD1349548AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{DAEC62CF-B3AD-4233-8D91-F388BE7C69D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DAEC62CF-B3AD-4233-8D91-F388BE7C69D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DAEC62CF-B3AD-4233-8D91-F388BE7C69D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EA08F67-D65C-46EB-A78E-5CD1349548AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EA08F67-D65C-46EB-A78E-5CD1349548AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EA08F67-D65C-46EB-A78E-5CD1349548AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EA08F67-D65C-46EB-A78E-5CD1349548AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
